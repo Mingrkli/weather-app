@@ -190,12 +190,6 @@ function fetchWeatherData() {
         // fade in the page once is all done
         app.style.opacity = '1';
     })
-
-    // if the user types a city that doesn't exists
-    .catch(() => {
-        alert('City not found, please try again');
-        app.style.opacity = '1';
-    })
 }
 
 // call function when page loads
